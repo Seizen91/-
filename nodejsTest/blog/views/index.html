@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+    <body>
+        <h1><%= title %></h1>
+        <p>Welcome to <%= title %></p>
+
+        <p>你好，这是我的第一个NodeJs Blog，使用了bootstrap</p>
+        <a href="users" id="btn">进入用户首页</a>
+    </body>
+
+    <!-- jQuery -->
+    <script src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            /*$("#btn").click(function () {
+                $.ajax({
+                    type: "post",
+                    url: "/users",
+	             // data: {email:$("#email").val(), password:$("#password").val()},
+                    dataType: "json",
+                    success: function(data){
+                        console.log("1111");
+                        if(data){
+                            var a=$.parseJSON(data);
+                            alert(a);
+                        } else{
+                            alert('失败');
+                        }
+                    }
+                });
+            });*/
+
+        });
+    </script>
+</html>
